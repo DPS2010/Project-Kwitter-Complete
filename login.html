@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>Ultimate Chat App</title>
+
+    <link rel="stylesheet" href="kwitter.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <script src="login.js"></script>
+
+</head>
+
+<body>
+    <center>
+        <h1>Welcome to The Ultimate CHAT APP! </h1>
+        <br><br>
+        <div id="welcomediv">
+            <br>
+            <h3>Start Chatting Now!</h3>
+            <label>User Name:</label>
+            <input type="text" id="nameinput" placeholder="Type your username here">
+            <br>
+            <label id="Warning">Please put the same username as before.</label>
+            <br><br>
+            <input type="button" id="namebtn" value="Submit" onclick="namebtn()">
+        </div>
+    </center>
+</body>
+
+</html>
